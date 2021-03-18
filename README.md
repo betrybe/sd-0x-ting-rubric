@@ -27,13 +27,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
-    - [1 - Implemente uma fila para armazenar os arquivos que serão lidos](#)
-    - [2 - Implemente uma função `txt_importer` dentro do módulo `file_management` capaz de importar notícias a partir de um arquivo TXT, utilizando "\n" como separador. Todas as mensagens de erro devem ir para a `stderr`](#)
-    - [3 - Implemente uma função `process` dentro do módulo `file_process` capaz de ler o arquivo carregado na função anterior e efetuar o preprocessamento do conteúdo](#)
-    - [4 - Implemente uma função `remove` dentro do módulo `file_process` capaz de remover o primeiro arquivo processado](#)
-    - [5 - Implemente uma função `file_metadata` dentro do módulo `file_process` capaz de apresentar as informações superficiais dos arquivos processados](#)
-    - [6 - Implemente uma função `exists_word` dentro do módulo `word_search`, que valide a existência da palavra em todos os arquivos processados. Para cada palavra encontrada, deve-se listar sua linha conforme apresentação abaixo](#)
-    - [7 - Implemente uma função `search_by_word` dentro do módulo `word_search`, que busque a palavra em todos os arquivos processados. Para cada palavra encontrada, deve-se listar sua linha, o conteúdo e o arquivo da ocorrência](#)
+    - [1 - Implemente uma fila para armazenar os arquivos que serão lidos](#1---implemente-uma-fila-para-armazenar-os-arquivos-que-serão-lidos)
+    - [2 - Implemente uma função `txt_importer` dentro do módulo `file_management` capaz de importar notícias a partir de um arquivo TXT, utilizando "\n" como separador. Todas as mensagens de erro devem ir para a `stderr`](#2---implemente-uma-função-txt_importer-dentro-do-módulo-file_management-capaz-de-importar-notícias-a-partir-de-um-arquivo-txt-utilizando-n-como-separador-todas-as-mensagens-de-erro-devem-ir-para-a-stderr)
+    - [3 - Implemente uma função `process` dentro do módulo `file_process` capaz de ler o arquivo carregado na função anterior e efetuar o preprocessamento do conteúdo](#3---implemente-uma-função-process-dentro-do-módulo-file_process-capaz-de-ler-o-arquivo-carregado-na-função-anterior-e-efetuar-o-preprocessamento-do-conteúdo)
+    - [4 - Implemente uma função `remove` dentro do módulo `file_process` capaz de remover o primeiro arquivo processado](#4---implemente-uma-função-remove-dentro-do-módulo-file_process-capaz-de-remover-o-primeiro-arquivo-processado)
+    - [5 - Implemente uma função `file_metadata` dentro do módulo `file_process` capaz de apresentar as informações superficiais dos arquivos processados](#5---implemente-uma-função-file_metadata-dentro-do-módulo-file_process-capaz-de-apresentar-as-informações-superficiais-dos-arquivos-processados)
+    - [6 - Implemente uma função `exists_word` dentro do módulo `word_search`, que valide a existência da palavra em todos os arquivos processados. Para cada palavra encontrada, deve-se listar sua linha conforme apresentação abaixo](#6---implemente-uma-função-exists_word-dentro-do-módulo-word_search-que-valide-a-existência-da-palavra-em-todos-os-arquivos-processados-para-cada-palavra-encontrada-deve-se-listar-sua-linha-conforme-apresentação-abaixo)
+    - [7 - Implemente uma função `search_by_word` dentro do módulo `word_search`, que busque a palavra em todos os arquivos processados. Para cada palavra encontrada, deve-se listar sua linha, o conteúdo e o arquivo da ocorrência](#7---implemente-uma-função-search_by_word-dentro-do-módulo-word_search-que-busque-a-palavra-em-todos-os-arquivos-processados-para-cada-palavra-encontrada-deve-se-listar-sua-linha-o-conteúdo-e-o-arquivo-da-ocorrência)
 
 - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
 - [Revisando um pull request](#revisando-um-pull-request)
